@@ -1,66 +1,171 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Jezzarax-jezzarax.github.io by jezzarax</title>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Alexey Kuntsevich CV</title>
+        <meta name="description" content="Alexey Kuntsevich CV">
+        <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Jezzarax-jezzarax.github.io</h1>
-        <p></p>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
 
-        <p class="view"><a href="https://github.com/jezzarax/jezzarax-jezzarax.github.io">View the Project on GitHub <small>jezzarax/jezzarax-jezzarax.github.io</small></a></p>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
-        <ul>
-          <li><a href="https://github.com/jezzarax/jezzarax-jezzarax.github.io/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/jezzarax/jezzarax-jezzarax.github.io/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/jezzarax/jezzarax-jezzarax.github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">My resume</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a data-toggle="tab" href="#profile">General info</a></li>
+                            <li><a data-toggle="tab" href="#skills">Skills</a></li>
+                            <li><a data-toggle="tab" href="#experience">Experience</a></li>
+                            <li><a href="http://codemedium.org/">Blog</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+        <div class="container">
+            <div class="row">
+                <div class="span4"><img src="img/photo400.jpg" alt="My photo" /></div>
+                <div class="span8">
+                    
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+                        <ul id="cvTabs" class="nav nav-tabs">
+                            <li>
+                                <a data-toggle="tab" href="#profile">General info</a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#skills">Skills</a>
+                            </li>
+                            <li>
+                                <a data-toggle="tab" href="#experience">Experience</a>
+                            </li>
+                        </ul>
+                        <div id="tabContent" class="tab-content">
+                            <div id="profile" class="tab-pane fade">
+                                <div class="hero-unit">    
+                                    <h1>Alexey Kuntsevich</h1>
+                                    <p>Specialist in designing, implementing and supporting enterprise information systems. Specialist in Microsoft SQL Server database engine and business intelligence development, .NET development. More than 6 years of work experience in software development. Have served as technical leader in small teams up to 4 team members and senior developer in teams up to 15 members.</p>
+                                </div>
+                            </div>
+                            <div id="skills" class="tab-pane fade">
+                                <div class="row">
+                                    <div class="span4">
+                                        <h2>Database development</h2>
+                                        <p><h4>DBMS:</h4>
+                                            <ul>
+                                                <li>Microsoft SQL Server 2005/2008/2012</li>
+                                                <li>PostgreSQL</li>
+                                                <li>MongoDB</li> 
+                                            </ul>
+                                        </p>
+                                        <p>
+                                            Skills:
+                                            <ul>
+                                                <li>ETL, Data analysis, vaidation&cleanup</li>
+                                                <li>Data modelling (OLTP&OLAP)</li>
+                                                <li>Database management</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="span4">
+                                        <h2>Server side development</h2>
+                                        <p>Development stacks:
+                                            <ul>
+                                                <li>ASP.NET</li>
+                                                <li>ASP.NET MVC</li>
+                                                <li>ASP.NET WEB API</li> 
+                                                <li>WCF</li> 
+                                                <li>Django</li> 
+                                            </ul>
+                                        </p>
+                                        <p>Libraries:
+                                            <ul>
+                                                <li>BlToolkit</li>
+                                                <li>Ninject</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                    <div class="span4">
+                                        <h2>Front-end development</h2>
+                                        <p>Technologies:
+                                            <ul>
+                                                <li>Javascript</li>
+                                                <li>JQuery</li>
+                                                <li>AngularJS</li> 
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="experience" class="tab-pane fade">
+                            </div>
+                        </div>
+            
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+            <!-- Example row of columns -->
+            
+                </div>
+            </div>
+            
+        </div>
 
-<h3>Designer Templates</h3>
+        <div class="container">
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            
 
-<h3>Rather Drive Stick?</h3>
+            <hr>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+            <footer>
+                <p>&copy; Alexey Kuntsevich 2013</p>
+            </footer>
 
-<h3>Authors and Contributors</h3>
+        </div> <!-- /container -->
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
-<h3>Support or Contact</h3>
+        <script src="js/vendor/bootstrap.min.js"></script>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/jezzarax">jezzarax</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-40444017-1', 'kuntsevich.org');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
 </html>
